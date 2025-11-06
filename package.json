@@ -1,0 +1,32 @@
+{
+  "name": "basemap-builder",
+  "version": "1.0.0",
+  "description": "Creating a custom vector tiles basemap for web mapping from OS Open Zoomstack",
+  "main": "batch-add-zooms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeLister/basemap-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeLister/basemap-builder/issues"
+  },
+  "homepage": "https://github.com/MikeLister/basemap-builder#readme",
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.4",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mb-util": "^1.1.30",
+    "path": "^0.12.7",
+    "pbf": "^4.0.1",
+    "stream-chain": "^3.4.0",
+    "stream-json": "^1.9.1",
+    "tippecanoe": "^0.6.0"
+  }
+}
