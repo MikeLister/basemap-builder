@@ -1,0 +1,111 @@
+{
+  "airports": {
+    "airports": [10, 14]
+  },
+  "foreshore": {
+    "foreshore": [9, 14]
+  },
+  "greenspace": {
+    "Allotments Or Community Growing Spaces": [10, 14],
+    "Bowling Green": [10, 14],
+    "Cemetery": [10, 14],
+    "Golf Course": [10, 14],
+    "Other Sports Facility": [10, 14],
+    "Play Space": [10, 14],
+    "Playing Field": [10, 14],
+    "Public Park Or Garden": [10, 14],
+    "Religious Grounds": [10, 14],
+    "Tennis Court": [10, 14]
+  },
+  "names": {
+    "Country": [5, 14],
+    "Capital": [5, 14],
+    "National Park": [6, 14],
+    "City": [6, 14],
+    "Town": [7, 14],
+    "Village": [8, 14],
+    "Hamlet": [8, 14],
+    "Small Settlements": [12, 14],
+    "Suburban Area": [10, 14],
+    "Woodland": [11, 14],
+    "Landform": [11, 14],
+    "Landcover": [11, 14],
+    "Water": [11, 14],
+    "Greenspace": [13, 14],
+    "Sites": [13, 14],
+    "Motorway Junctions": [14, 14]
+  },
+  "national_parks": {
+    "national_parks": [5, 14]
+  },
+  "rail": {
+    "Multi Track": [10, 14],
+    "Single Track": [10, 14],
+    "Narrow Gauge": [14, 14],
+    "Tunnel": [10, 14]
+  },
+  "railway_stations": {
+    "Railway Station": [12, 14],
+    "Light Rapid Transit Station": [12, 14],
+    "London Underground Station": [12, 14],
+    "Light Rapid Transit Station And Railway Station": [12, 14],
+    "Railway Station And London Underground Station": [12, 14],
+    "Light Rapid Transit Station And London Underground Station": [12, 14]
+  },
+  "roads_local": {
+    "Motorway": [5, 14],
+    "Primary": [5, 14],
+    "A Road": [8, 14],
+    "B Road": [10, 14],
+    "Minor Road": [11, 14],
+    "Local Street": [12, 14],
+    "Restricted": [12, 14],
+    "Tunnels": [9, 14],
+    "Guided Busway": [8, 14]
+  },
+  "roads_national": {
+    "Motorway": [5, 14],
+    "Primary": [5, 14],
+    "A Road": [8, 14],
+    "B Road": [10, 14],
+    "Minor Road": [11, 14],
+    "Local Street": [12, 14],
+    "Restricted": [12, 14],
+    "Tunnels": [9, 14],
+    "Guided Busway": [8, 14]
+  },
+  "roads_regional": {
+    "Motorway": [5, 14],
+    "Primary": [5, 14],
+    "A Road": [8, 14],
+    "B Road": [10, 14],
+    "Minor Road": [11, 14],
+    "Local Street": [12, 14],
+    "Restricted": [12, 14],
+    "Tunnels": [9, 14],
+    "Guided Busway": [8, 14]
+  },
+  "sites": {
+    "Air Transport": [11, 14],
+    "Education": [11, 14],
+    "Medical Care": [11, 14],
+    "Road Transport": [11, 14],
+    "Water Transport": [11, 14]
+  },
+  "surfacewater": {
+    "Local": [6, 14],
+    "Regional": [6, 14],
+    "National": [6, 14]
+  },
+  "waterlines": {
+    "National": [8, 8],
+    "Regional": [9, 9],
+    "District": [10, 11],
+    "Local": [12, 14],
+    "MHW": [9, 14],
+    "MLW": [9, 14]
+  },
+  "woodland": {
+    "woodland": [6, 14]
+  }
+}
