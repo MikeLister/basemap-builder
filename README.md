@@ -24,7 +24,7 @@ This is an important step for keeping the map tiles light and quick. We want to 
 To check which types are present in a layer use `get-types.js` - adjust the `inputFile` value to read the right file. To run it run `node get-types.js` in the terminal. 
 
 ## 7. Add tippecanoe minzoom and maxzoom properties to each feature
-`batch-add-zooms.js` will add minzoom and maxzoom properties to a each feature, consistent with the [tippecanoe GeoJSON extension](https://github.com/felt/tippecanoe?tab=readme-ov-file#geojson-extension). To run it run `node batch-add-zooms.js` in the terminal. This will output a new folder of GeoJSON files with the tippecanoe objects added.
+`batch-add-zooms.js` will add minzoom and maxzoom properties to each feature, consistent with the [tippecanoe GeoJSON extension](https://github.com/felt/tippecanoe?tab=readme-ov-file#geojson-extension). To run it run `node batch-add-zooms.js` in the terminal. This will output a new folder of GeoJSON files with the tippecanoe objects added.
 
 ## 8. Use tippecanoe to convert that directory into a .mbtiles file
 From the terminal run:
@@ -45,7 +45,7 @@ If you also have other layers to add in to the basemap (e.g. building mask and u
 tile-join -o combined-basemap.mbtiles england_building_mask5.mbtiles urban_areas_mask2.mbtiles clipped-basemap.mbtiles --no-tile-size-limit 
 ```
 
-## 10. Convert from .mbutil to a directory of tiles
+## 10. Convert from .mbtiles to a directory of tiles
 ```
 mb-util combined-basemap.mbtiles base-tiles/ --image_format=pbf 
 ```
